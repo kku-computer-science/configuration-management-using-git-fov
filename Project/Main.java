@@ -16,7 +16,7 @@ public class Main {
         }
 
         // 2. เลือก Algorithm
-        System.out.println("Choose algorithm:");
+        System.out.println("Choose Algorithm:");
         System.out.println("1. Quick Sort");
         System.out.println("2. Bubble Sort");
         System.out.print("Enter choice (1 or 2): ");
