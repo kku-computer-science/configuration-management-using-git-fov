@@ -36,5 +36,8 @@ public class Main {
 
         // 4. แสดงผลลัพธ์
         System.out.println("Result: " + Arrays.toString(numbers));
+
+        QuickSort qs = new QuickSort();
+        qs.sort(numbers, 0, numbers.length - 1);
     }
 }
