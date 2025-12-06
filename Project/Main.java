@@ -1,3 +1,5 @@
+package Project;
+
 import java.util.Scanner;
 import java.util.Arrays;
 
@@ -24,8 +26,7 @@ public class Main {
 
         // 3. เรียกใช้งาน Class Sort ตามที่เลือก
         if (choice == 1) {
-            QuickSort qs = new QuickSort();
-            qs.sort(numbers, 0, numbers.length - 1);
+            QuickSort.quickSort(numbers, 0, numbers.length - 1);
         } else if (choice == 2) {
             BubbleSort bs = new BubbleSort();
             bs.sort(numbers);
@@ -36,8 +37,5 @@ public class Main {
 
         // 4. แสดงผลลัพธ์
         System.out.println("Result: " + Arrays.toString(numbers));
-
-        QuickSort qs = new QuickSort();
-        qs.sort(numbers, 0, numbers.length - 1);
     }
 }
